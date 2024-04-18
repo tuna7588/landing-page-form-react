@@ -3,7 +3,7 @@ import './buttons.css';
 
 export const Buttons = ({ onBtnClick }) => {
   const handleClick = (btnId) => {
-    onBtnClick(btnId); // Llama a la función proporcionada por la prop onBtnClick con el ID del botón
+    onBtnClick(btnId); 
   };
 
   return (
