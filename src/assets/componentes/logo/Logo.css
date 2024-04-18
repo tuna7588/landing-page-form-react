@@ -1,15 +1,19 @@
 .logo-container {
     
     margin-left: 2%;
-    max-width: 10%;
+    min-width: 50%;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     text-align: center;
 }
 .foto-img {
-max-width:15%;
-padding-right: 10%;
-
-
+    padding: 5%;
+height: 85%;
 }
+
+.logo-space {
+    height: 100%;
+    padding-right: 4%;
+}
+

@@ -5,9 +5,13 @@ import Logo2 from './logo2.png'
 export const Logo = () => {
     return (
 
-        <>    
-           <img className='foto-img' src={Logo2}/>
-                <h1>AJRM Team</h1>
+        <>
+            <div className="logo-space">
+                <img className='foto-img' src={Logo2} />
+            </div>
+            <div className="titulo">
+            <h1>AJRM Team</h1>
+            </div>
         </>
     )
 };

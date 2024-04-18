@@ -1,13 +1,16 @@
-import { useState } from 'react'
-import App from '../../../App'
+import React from 'react';
 import './buttons.css';
-export const Buttons = () => {
-    return (
 
-        <>    
-                <button className='btns' id='btn1'>Botón 1</button>
-                <button className='btns' id='btn2'>Botón 2</button>
-                <button className='btns' id='btn3'>Botón 3</button>
-        </>
-    )
+export const Buttons = ({ onBtnClick }) => {
+  const handleClick = (btnId) => {
+    onBtnClick(btnId); // Llama a la función proporcionada por la prop onBtnClick con el ID del botón
+  };
+
+  return (
+    <>
+      <button className='btns' id='btn1' onClick={() => handleClick('btn1')}>Botón 1</button>
+      <button className='btns' id='btn2' onClick={() => handleClick('btn2')}>Botón 2</button>
+      <button className='btns' id='btn3'>Botón 3</button>
+    </>
+  );
 };
