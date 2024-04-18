@@ -1,4 +1,7 @@
 .container{
+  font-family: "Montserrat", sans-serif;
+  font-style: small;
+  font-size: 14px;
   position: absolute;
     background-color: white;
     width: 30%;

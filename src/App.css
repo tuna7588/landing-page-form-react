@@ -1,8 +1,10 @@
-
+body {
+  min-height: 100%;
+  background: #FFEDD5;
+}
 .app__background{
   height: 100vh;
   width: 100vw;
-  background: #FFEDD5;
   display: flex;
   flex-direction: column;
 }

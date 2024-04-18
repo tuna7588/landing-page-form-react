@@ -13,16 +13,16 @@ export const Form = () => {
             <input type="text" placeholder="Enter Email" name="email" required />
 
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required />
+            <input type="passw" placeholder="En Password" name="psw" required />
 
             <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required />
+            <input type="passw" placeholder="Repeat Password" name="psw-repeat" required />
 
             <label>
-                <input type="checkbox" checked="checked" name="remember"  /> Remember me
+                <input type="checkbox"ecked="checked" name="remember"  /> Remember me
             </label>
 
-            <p>By creating an account you agree to our <a href="#" >Terms & Privacy</a>.</p>
+            <p>By creating an acct you agree to our <a href="#" >Terms & Privacy</a>.</p>
 
             <div className="clearfix">
                 <button type="button" className="cancelbtn">Cancel</button>
