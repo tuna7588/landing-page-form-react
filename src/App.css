@@ -15,6 +15,7 @@ body {
 .navbar {
  
   display: flex;
+  justify-content: space-between;
   background-color: #FB923C;
   min-width: 100vw;
   height: 8%;
