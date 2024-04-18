@@ -8,9 +8,9 @@ export const Buttons = ({ onBtnClick }) => {
 
   return (
     <>
-      <button className='btns' id='btn1' onClick={() => handleClick('btn1')}>Botón 1</button>
-      <button className='btns' id='btn2' onClick={() => handleClick('btn2')}>Botón 2</button>
-      <button className='btns' id='btn3'>Botón 3</button>
+      <button className='btns' id='btn1' onClick={() => handleClick('btn1')}>About Us</button>
+      <button className='btns' id='btn2'>Extra</button>
+      <button className='btns' id='btn3' onClick={() => handleClick('btn3')}>Home</button>
     </>
   );
 };

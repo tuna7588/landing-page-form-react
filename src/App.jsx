@@ -17,7 +17,7 @@ const App = () => {
     if (btnId === 'btn1') {
       setShowContentForm(false);
       setShowAboutUs(true);
-    } else if (btnId === 'btn2') {
+    } else if (btnId === 'btn3') {
       setShowContentForm(true);
       setShowAboutUs(false);
     }

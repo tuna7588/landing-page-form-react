@@ -7,7 +7,7 @@ export const Logo = () => {
 
         <>
             <div className="logo-space">
-                <img className='foto-img' src={Logo2} />
+                <img className='logo-img' src={Logo2} />
             </div>
             <div className="titulo">
             <h1>AJRM Team</h1>
