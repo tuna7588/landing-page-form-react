@@ -1,0 +1,9 @@
+.logo-container {
+    
+    margin-left: 2%;
+    max-width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

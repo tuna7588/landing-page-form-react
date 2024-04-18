@@ -1,11 +1,11 @@
-export default Navbar;
-const Navbar = () => {
+import { useState } from 'react'
+import App from '../../../App'
+import './Logo.css';
+export const Logo = () => {
     return (
-        <>
-        <div className = "navbar">
-            <Logo />
-            <Buttons />
-        </div>
+
+        <>    
+                <h4>Logo Aquí</h4>
         </>
     )
-}
+};

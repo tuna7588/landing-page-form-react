@@ -1,0 +1,29 @@
+.btns-container {
+   
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding-left: 1%;
+    justify-content: space-around;
+    
+}
+
+.btns {
+    width: 28%
+    
+    
+}
+#btn1, #btn2, #btn3 {
+    border-radius: 15px;
+    color: white;
+    opacity: 0.8;
+}
+
+#btn1 {
+    background-color: #04AA6D;
+  }
+
+  #btn1:hover, #btn2:hover, #btn3:hover {
+    opacity: 1;
+    transform: scale(0.95, 0.95)
+  }
