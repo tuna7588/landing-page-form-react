@@ -5,28 +5,28 @@ export const Form = () => {
 
     <>
         <div className="container">
-            <h1>Sign Up</h1>
-            <p>Please fill in this form to create an account.</p>
+            <h1>Crear tu cuenta</h1>
+            <p>Rellenar este formulario para crear una cuenta.</p>
 
             <hr></hr>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required />
+            <label for="email"><b>Correo eléctronico</b></label>
+            <input type="text" placeholder="Correo" name="email" required />
 
-            <label for="psw"><b>Password</b></label>
-            <input type="passw" placeholder="En Password" name="psw" required />
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Contraseña" name="psw" required />
 
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="passw" placeholder="Repeat Password" name="psw-repeat" required />
+            <label for="psw-repeat"><b>Repetir contraseña</b></label>
+            <input type="password" placeholder="Repetir contraseña" name="psw-repeat" required />
 
             <label>
-                <input type="checkbox"ecked="checked" name="remember"  /> Remember me
+                <input type="checkbox" checked="checked" name="remember"  /> Remember me
             </label>
 
-            <p>By creating an acct you agree to our <a href="#" >Terms & Privacy</a>.</p>
+            <p>Al crear esta cuenta está de acuerdo con nuestro <a href="#" >Términos & Privacidad</a>.</p>
 
             <div className="clearfix">
-                <button type="button" className="cancelbtn">Cancel</button>
-                <button type="submit" className="signupbtn">Sign Up</button>
+                <button type="button" className="cancelbtn">Cancelar</button>
+                <button type="submit" className="signupbtn">Crear cuenta</button>
             </div>
         </div>
        
