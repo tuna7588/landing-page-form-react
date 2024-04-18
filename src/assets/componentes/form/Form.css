@@ -1,13 +1,13 @@
 .container{
-    background-color:white;
+    background-color: white;
     width: 30%;
-height: 80%;
-padding: 15px;
-margin-right: 90px;
-margin-top: 120px;}
+    height: 70%;
+    padding: 15px;
+    margin-top: 120px;
+    margin-left: 700px;}
     
 input[type=text], input[type=password] {
-        width: 100%;
+        width: 90%;
         padding: 15px;
         margin: 5px 0 22px 0;
         display: inline-block;
