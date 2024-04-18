@@ -3,10 +3,11 @@ import React from "react";
 //include images into your bundle
 
 import Fondo from "./orange.png";
-import AnhTu from "./Anh-Tu.jpg";
+// import AnhTu from "./Anh-Tu.jpg";
 import Melisa from "./Melisa.jpg";
 import Rocio from "./Rocio.jpg";
 import Jordi from "./Jordi.jpg";
+import AnhTu from "./Anh-Tu.jpg";
 import './AboutUs.css';
 
 
